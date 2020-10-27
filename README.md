@@ -2,4 +2,4 @@
  
 Simple TODO - first app, created by me from zero
 
-#Build: https://makarpustovalov.github.io/TODO-extended/
+# Build: https://makarpustovalov.github.io/TODO-extended/
