@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tasklist {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 320px;
+  width: 30%;
+  margin: 0 auto;
+}
+.tasklist__header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #E34040;
+  margin-bottom: 50px;
+}
+.tasklist__input {
+  margin-bottom: 50px;
+  margin-right: 23px;
+  min-width: 255px;
+  height: 40px;
+  border: 2px solid #E34040;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2c2c2c;
+}
+.tasklist__add {
+  border: none;
+  cursor: pointer;
+}
+.tasklist .task {
+  max-width: 100%;
+  width: 320px;
+  text-align: left;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #E34040;
+  padding-bottom: 15px;
+}
+.tasklist .task__inner {
+  display: flex;
+  align-items: center;
+}
+.tasklist .task__text {
+  margin-left: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2c2c2c;
+  max-width: 250px;
+  word-wrap: break-word;
+}
+.tasklist .task__delete {
+  margin-left: auto;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.tasklist .task input[type=checkbox] {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+.tasklist .checked {
+  text-decoration: line-through;
+  color: #8C8C8C;
+}
