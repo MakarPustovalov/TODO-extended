@@ -1,5 +1,5 @@
 # TODO-extended
  
-Simple TODO - first app, created by me from zero
+Simple TODO - my first app, created from zero
 
 # Build: https://makarpustovalov.github.io/TODO-extended/
